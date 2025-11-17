@@ -1,0 +1,59 @@
+/* Container centralizado com fundo degradê */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-form {
+  background-color: #ffffffdd; /* Branco com transparência */
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+.login-form h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.login-form p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 12px 1px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.login-form input:focus {
+  border-color: #66a6ff;
+  box-shadow: 0 0 5px #66a6ff;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background-color: #66a6ff;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-form button:hover {
+  background-color: #89f7fe;
+}

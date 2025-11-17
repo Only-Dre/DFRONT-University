@@ -1,0 +1,34 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "nome": "João da Silva",
+      "telefone": "11 98765-4321",
+      "email": "joao.silva@example.com"
+    },
+    {
+      "id": 2,
+      "nome": "Maria Oliveira",
+      "telefone": "21 99888-7777",
+      "email": "maria.oliveira@example.com"
+    },
+    {
+      "id": 3,
+      "nome": "Carlos Souza",
+      "telefone": "31 91234-5678",
+      "email": "carlos.souza@example.com"
+    },
+    {
+      "id": 4,
+      "nome": "Ana Beatriz",
+      "telefone": "41 99999-0000",
+      "email": "ana.beatriz@example.com"
+    },
+    {
+      "id": 5,
+      "nome": "Pedro Lima",
+      "telefone": "51 98888-1111",
+      "email": "pedro.lima@example.com"
+    }
+  ]
+}
